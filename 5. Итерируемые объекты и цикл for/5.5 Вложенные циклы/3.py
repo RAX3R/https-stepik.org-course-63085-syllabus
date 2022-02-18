@@ -1,6 +1,10 @@
-nums = list(map(int, input().split()))
+n, m = list(map(int, input().split()))
 
-for num in nums:
-    for _ in range(1, num + 1):
-        print('*', end='')
-    print()
+count = 0
+
+for a in range(0, 1001):
+    for b in range(0, 1001):
+        if (a * a + b) == n and (a + b * b) == m:
+            count += 1
+
+print(count)
