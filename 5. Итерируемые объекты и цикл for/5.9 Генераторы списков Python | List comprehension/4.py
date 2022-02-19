@@ -1,3 +1,3 @@
-st = 'Create a list of the first letters of every word in this string'
+number = int(input())
 
-print([i[0] for i in st.split()])
+print([i for i in range(number, number * number + 1) if i % 2 == 1])

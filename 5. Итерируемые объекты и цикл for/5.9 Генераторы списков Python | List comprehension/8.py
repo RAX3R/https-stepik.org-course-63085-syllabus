@@ -1,3 +1,5 @@
-phrase = 'Take only the words that start with t in this sentence'
+from string import ascii_uppercase
 
-print([i for i in phrase.split() if i[0].lower() == 't'])
+n = int(input())
+
+print([j * (i + 1) for i, j in enumerate(ascii_uppercase)][:n])

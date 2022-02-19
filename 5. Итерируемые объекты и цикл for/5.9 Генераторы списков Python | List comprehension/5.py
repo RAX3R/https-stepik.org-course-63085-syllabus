@@ -1,5 +1,7 @@
-from string import ascii_uppercase
+x, y = map(int, input().split())
 
-n = int(input())
-
-print([j * (i + 1) for i, j in enumerate(ascii_uppercase)][:n])
+if x < y:
+    print([i ** 2 for i in range(x, y + 1)])
+else:
+    x, y = y, x
+    print([i ** 3 for i in reversed(range(x, y + 1))])
