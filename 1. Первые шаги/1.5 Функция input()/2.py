@@ -1,1 +1,4 @@
-print(sum(map(int,input().split())))
+num = int(input())
+
+print(num * 2)
+print(num / 2)
