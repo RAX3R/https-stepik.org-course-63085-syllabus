@@ -1,3 +1,3 @@
-x = int(input()) // 3
+num = float(input())
 
-print(x // 2, x * 2, x // 2)
+print(num ** 2)
