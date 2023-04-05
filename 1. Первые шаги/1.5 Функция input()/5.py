@@ -1,3 +1,6 @@
-N, A, B = map(int, input().split())
+a, b = float(input()), float(input())
 
-print(N * A * B * 2)
+S = a * b
+P = 2 * (a + b)
+
+print(S,P)
