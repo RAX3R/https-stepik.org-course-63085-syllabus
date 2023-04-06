@@ -1,3 +1,5 @@
-marks = list(map(int, input().split()))
+F = float(input())
 
-print(sum(marks) / len(marks))
+C = ((F - 32) * 5) / 9
+
+print(C)
