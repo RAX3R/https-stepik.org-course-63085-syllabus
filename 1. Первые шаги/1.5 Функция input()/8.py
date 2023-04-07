@@ -1,3 +1,3 @@
-G, L = map(int, input().split())
+a, b = float(input()), float(input())
 
-print(L - 1, G - 1)
+print(abs(a - b))
