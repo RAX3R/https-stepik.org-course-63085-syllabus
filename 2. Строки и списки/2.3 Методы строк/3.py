@@ -1,1 +1,3 @@
-print(input().lower().count('e'))
+a, b = input(), input()
+
+print(a.upper() == b.upper())
