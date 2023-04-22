@@ -1,1 +1,3 @@
-print(input().find('a'))
+s = input()
+
+print(s.swapcase())
