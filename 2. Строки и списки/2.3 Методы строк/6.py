@@ -1,1 +1,3 @@
-print(input().rfind('a'))
+s = input()
+
+print(s.title().swapcase())
