@@ -1,1 +1,1 @@
-print(','.join(input().split()))
+print(input().find('a'))
